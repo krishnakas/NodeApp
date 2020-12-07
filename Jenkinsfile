@@ -1,7 +1,7 @@
 pipeline { 
     environment { 
-        registry = "krishnakas/nodeapp" 
-        registryCredential = 'dockerhub_id' 
+        registry = "maloth147/nodeapp" 
+        registryCredential = 'docker_id' 
         dockerImage = '' 
     }
     agent any 
